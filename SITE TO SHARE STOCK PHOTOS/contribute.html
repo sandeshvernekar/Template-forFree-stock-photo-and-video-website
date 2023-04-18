@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contribute</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="conbg">
+        <nav>
+            
+            <i onclick="OpenNav()"  class="fas fa-bars fa-2x"></i>
+        </nav>
+        <div id="side-nav">
+            <i  onclick="CloseNav()"  class="fas fa-times fa-2x"></i>
+            <a href="./home.html">Home</a>
+            <a href="./h.html">Library</a>
+            <a href="#">Contribute</a>
+            <a href="#">SignUp</a>
+            <a href="#">SignIn</a>
+        </div>
+       
+           
+        </div>
+
+            <div class="consec">
+                <p>Before contributing the image make sure you already have an account</p>
+            <p>Click below to SignUp or SignIn</p>
+            <p class="clik" onclick="OpenNav()">Click Here</p>
+            <p>To upload the image click Below</p>
+          <div class="in" >
+            <i class="fa-solid fa-upload"></i>
+          </div>
+              
+            </div>
+            <footer>
+                <div class="social-icons">
+                  <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                  <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                  <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+              
+        </footer>
+        
+    <script>
+        const sideNav = document.getElementById('side-nav');
+
+        function OpenNav(){
+            sideNav.style.width='250px';
+        }
+        function CloseNav(){
+            sideNav.style.width='0px';
+        }
+
+
+
+    </script>
+    
+</body>
+</html>

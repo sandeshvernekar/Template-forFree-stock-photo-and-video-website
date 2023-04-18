@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+ <div class="homebg">
+        <nav>
+            
+            <i onclick="OpenNav()"  class="fas fa-bars fa-2x"></i>
+        </nav>
+        <div id="side-nav">
+            <i  onclick="CloseNav()"  class="fas fa-times fa-2x"></i>
+            <a href="#">Home</a>
+            <a href="./h.html">Library</a>
+            <a href="./contribute.html">Contribute</a>
+            <a href="s.html">SignIn </a>
+            <a href="s.html">Logout</a>
+        </div>
+    </div>
+    <div class="sec">
+        <h1>Copyright Fair Use and How it Works for Online Images</h1>
+        <p>The goal here is to better understand how to use images others create in a way that is both respectful of the author's ownership rights and allows others to use it.</p>
+        <p>You've heard the adage that a picture is worth a thousand words, but when that picture is protected by image copyright, the picture is only worth three words: cease and desist.</p>
+        <p>Copyright laws were established not to give the author the right to deny their work to other people, but instead to encourage its creation.</p>
+        <p>Article I, Section 8, clause 8, of the United States Constitution states the purpose of copyright laws is “to promote the Progress of Science and useful Arts, by securing for limited times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.”</p>
+        <h1>What Is Copyright?</h1>
+        <p>Copyright is a federal law of the United States that protects original works of authorship. A work of authorship includes literary, written, dramatic, artistic, musical and certain other types of works.</p>
+        <h1>What Is Fair Use of Copyright? Can I Use That Image?</h1>
+        <p>Fair use is not the same as free use. Fair use is a legal exception to the exclusive rights an owner has for his or her copyrighted work.</p>
+        <p>A classic example of fair use of an image online is product reviews. If you want to review a book, a new piece of technology, a food product or whatever widget, you'll likely want to include a photo. But not some washed-out, overexposed, shadowy, laundry in the background kind of photo that you'd take.
+
+            So you head to the manufacturer's website and right-click that image and save it to upload to your site. A photo will not substitute for the actual product, so the owner's rights should be very minimally affected. Therefore, your right to use the copyrighted image would likely be permitted under fair use.</p>
+    </div>
+
+    <div class="homefoo">
+        <div class="social-icons">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+              </div>
+            
+       
+    </div>
+        <script>
+            const sideNav = document.getElementById('side-nav');
+    
+            function OpenNav(){
+                sideNav.style.width='250px';
+            }
+            function CloseNav(){
+                sideNav.style.width='0px';
+            }
+    
+    
+    
+        </script>
+</body>
+</html>
